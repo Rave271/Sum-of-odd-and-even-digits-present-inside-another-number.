@@ -2,7 +2,7 @@ n=(input())
 #abhi n string hai
 odd=0
 even=0
-#Used for instead of while kyuki for me mujhe x ko manually +1 nhi karna padhega 
+#Used "for" instead of "while" kyuki for me mujhe x ko manually +1 nhi karna padhega 
 for R in n:
     x=int(R)
 #ab x "n" hi hai bas ek integer
