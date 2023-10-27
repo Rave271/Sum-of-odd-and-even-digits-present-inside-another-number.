@@ -1,0 +1,15 @@
+n=(input())
+#abhi n string hai
+odd=0
+even=0
+#Used for instead of while kyuki for me mujhe x ko manually +1 nhi karna padhega 
+for R in n:
+    x=int(R)
+#ab x "n" hi hai bas ek integer
+    if x % 2 == 0:
+        even += x
+        #yaha samaj 556 input di hai,to ab yaha x%2 sirf 6 lekar even me add kardega
+    else:
+        odd += x
+print(odd,even)
+    
